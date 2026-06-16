@@ -1,0 +1,31 @@
+模型：BERT
+任务：中文酒店评论情感二分类
+数据集：ChnSentiCorp_htl_all
+
+训练集数量：6212
+验证集数量：776
+测试集数量：777
+
+Test Loss: 0.34
+Test Accuracy: 84.94%
+
+negative:
+Precision: 0.7581
+Recall: 0.7673
+F1-score: 0.7627
+Support: 245
+
+positive:
+Precision: 0.8922
+Recall: 0.8872
+F1-score: 0.8897
+Support: 532
+
+Weighted Average:
+Precision: 0.8499
+Recall: 0.8494
+F1-score: 0.8497
+
+Confusion Matrix:
+[[188 57]
+ [60 472]]
